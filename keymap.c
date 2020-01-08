@@ -40,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 			  KC_LCTRL,        KC_A,        KC_S,          KC_D,    KC_F,    KC_G,
 			  KC_LSFT,         KC_Z,        KC_X,          KC_C,    KC_V,    KC_B,    KC_LSFT,
 			  RGUI(KC_D), RGUI(KC_Z), RGUI(KC_X), RGUI(KC_C), RGUI(KC_V),
-			  KC_DELT, RGUI(KC_Z),
+			  KC_DELT, RCTL(KC_SPC),
 			  KC_LCTRL,
 			  SFT_T(KC_SPC), GUI_T(KC_TAB), ALT_T(KC_ESC),
 			  // right hand
@@ -48,9 +48,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 			  KC_UP,      KC_Y,     KC_U,    KC_I,    KC_O,              KC_P,           KC_BSLS,
 			  KC_H,         KC_J,    KC_K,    KC_L,  KC_SCLN,  KC_QUOT,  
 			  KC_DOWN,      KC_N,    KC_M,    KC_COMM,   KC_DOT,            KC_SLSH,          KC_LBRC,
-			  KC_PGUP,KC_PGDN ,KC_GRV, RGUI(KC_LALT),KC_RBRC,
+			  GUI_T(KC_PGUP), ALT_T(KC_PGDN), ALT_T(KC_GRV), RGUI(KC_LALT), KC_RBRC,
 			  KC_LEFT, KC_RGHT,
-			  RCTL(KC_LALT),
+			  KC_RSFT,
 			  RCTL(KC_SPC),LT(SYMB, KC_BSPC) , SFT_T(KC_ENT)
 			  ),
   /* Keymap 1: Symbol Layer
